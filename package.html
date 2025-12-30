@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beach Escape – Holidae</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <h1>Holidae</h1>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  <nav class="nav" id="mainNav">
+    <a href="index.html">Home</a>
+    <a href="package.html">Packages</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <h2>Beach Escape – Spain</h2>
+  <p>7 nights | Flights included | From £499</p>
+</section>
+
+<div class="feature-box feature-flight">
+  <div class="image-feature flights-feature">
+    <div class="image-feature-text">
+      <h3>Flights</h3>
+      <p>Return flights included.</p>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+<div class="image-feature transfers-feature small-feature">
+  <div class="image-feature-text">
+    <h3>Transfers</h3>
+    <p>Airport transfers included.</p>
+  </div>
+</div>
+
+
+
+  </section>
+</main>
+
+<section class="quote">
+  <h3>Request a quote</h3>
+  <form id="quoteForm">
+    <label for="fullName">Full name</label>
+    <input type="text" id="fullName" name="fullName" placeholder="e.g., Maria Ivanova">
+
+    <label for="people">Number of travellers</label>
+    <input type="number" id="people" name="people" min="1" max="12" value="2">
+
+    <label for="month">Preferred month</label>
+    <select id="month" name="month">
+      <option value="">Select</option>
+      <option>January</option><option>February</option><option>March</option>
+      <option>April</option><option>May</option><option>June</option>
+      <option>July</option><option>August</option><option>September</option>
+      <option>October</option><option>November</option><option>December</option>
+    </select>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="name@email.com">
+
+    <button class="btn" type="submit">Send request</button>
+
+    <p id="formMessage" class="form-message" aria-live="polite"></p>
+  </form>
+</section>
+
+<script src="js/script.js"></script>
+
+<footer>
+  <p>© 2026 Holidae</p>
+</footer>
+
+</body>
+</html>
